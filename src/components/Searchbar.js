@@ -48,7 +48,7 @@ const Searchbar = () => {
     
     return (
         <StyledSearchbar>
-            <Input name="search" placeholder="Cari disini..." onChange={handleChange} />
+            <Input name="search" placeholder="Search Here..." onChange={handleChange} />
         </StyledSearchbar>
     )
 }

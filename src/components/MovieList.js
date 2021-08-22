@@ -2,8 +2,7 @@ import React, { useState, useEffect} from 'react';
 import Styled from 'styled-components'
 import screens from '../screens'
 import { Link } from "react-router-dom";
-import { useSelector } from 'react-redux';
-import { useDispatch } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import { fetchMoreMovies } from '../store/reducers/movies/movies.thunk';
 import Popup from './Popup';
 

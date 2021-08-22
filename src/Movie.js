@@ -62,7 +62,7 @@ const Movie = () => {
                     {isLoading && <Title>Loading....</Title>}
                     <Title>{movie.Title}</Title>
                     <BoxBody>
-                        <Poster src={movie.Poster} alt={movie.Title} />
+                        <Poster src={movie.Poster !== 'N/A' ? movie.Poster: '../no_img.png'} alt={movie.Title} />
                         <Plot>
                             <p>{movie.Plot}</p>
                         </Plot>

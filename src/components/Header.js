@@ -15,8 +15,7 @@ export default function Header() {
     return (
         <>
             <StyledHeader>
-                <h1>Omdb Movies</h1>
-                <h4>Search your favorites movie</h4>
+                <h1>Search Movies</h1>
             </StyledHeader>
             <Searchbar/>
         </>
